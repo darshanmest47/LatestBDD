@@ -22,13 +22,15 @@ public class Apphooks {
 	public void initProp() {
 		config = new Configreader();
 		prop = config.initialize();
+		System.out.println("prop is "+ prop);
 	}
 	
 	@Before(order = 1)
 	public void launchBrowser() {
 		dfac = new DriverFactory();
-		String browserName = prop.getProperty("browser");
-		driver = dfac.initializeBrowser(browserName);
+		String browse = prop.getProperty("browserName");
+		System.out.println("browse is "+browse);
+		driver = dfac.initializeBrowser(browse);
 		
 	}
 	

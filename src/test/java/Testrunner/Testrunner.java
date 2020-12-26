@@ -7,8 +7,8 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "E:\\eclipse3\\LatestBDD\\resources\\Features",
-		glue = {"stepdefs","Apphooks"},
+		features = "E:\\eclipse3\\LatestBDD\\src\\test\\resources\\parallel",
+		glue = {"parallel","Apphooks"},
 		monochrome = true,
 		dryRun = false,
 				plugin = {"pretty",

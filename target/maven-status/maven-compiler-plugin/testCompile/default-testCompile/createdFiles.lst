@@ -1,0 +1,5 @@
+Apphooks\Apphooks.class
+parallel\Logindefs.class
+parallel\Parallelrun.class
+parallel\Loggeddefs.class
+Testrunner\Testrunner.class
